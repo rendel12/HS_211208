@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+
+body{min-width:1200px; font-family:"NotoSans",sans-serif; color:#333;}
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{margin:0; padding:0; font-size:100%;}
+
+ul{margin:0; padding:0; list-style:none;}
+
+a{text-decoration:none; color:#333;}
+
+table{border-collapse:collapse; border-spacing:0;}
+
+.inner{width:1200px; margin:0 auto;}
+
+.cf::after{content:""; display:block; clear:both;}
+
+HTML{font-size:16px; font-size:1em;}
+
+/*	Font	*/
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+.fontColor_blue{color:#19669b;}
+.fontColor_brown{color:#472a15;}
+.fontColor_gold{color:#ffd800;}
+/*	Font	*/
+
+
+
+#wrap{
+	font-family: 'Noto Sans KR';
+	font-size:1em;
+	background-color:#f0f0f0;
+	box-sizing:border-box;
+	text-align:center;
+	width:100vw;
+}
+
+#container{
+	width:100%;
+	max-width:1200px;
+	background-color:#19669b;
+	padding:50px;
+	box-sizing:border-box;
+	margin:0 auto;
+}
+
+
+
+
+
+/*	pre tag 공통	*/
+.preDiv{
+	border:1px solid #333;
+	box-sizing:border-box;
+	margin:70px 0;
+}
+
+pre{
+	font-family:"Noto Sans KR";
+	font-size:0.875em;
+	padding:20px;
+	margin:0;
+	background-color:#fff;
+	word-break:break-all;
+	white-space: pre-wrap;
+	text-align:justify;
+}
+/*	pre tag 공통	*/
+
+
+#main{
+	background-color:#f5f5f5;
+	padding:50px;
+	box-sizing:border-box;
+}
+
+
+#header h2{
+	font-family:'Recipekorea';
+	font-size:188%;
+}
+
+
+#header .mainTitle{
+	font-family:'Recipekorea';
+}
+
+#header h1{
+	font-size:263%;
+}
+#header h3{
+	font-size:113%;
+	margin-bottom:70px;
+}
+
+.title{
+}
+
+
+.eventInfo{}
+.eventInfo .preDiv{}
+.eventInfo .preDiv div{}
+
+
+.centerText{}
+
+.agree{}
+.agree .preDiv{}
+.agree .preDiv pre{}
