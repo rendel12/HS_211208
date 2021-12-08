@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 
+/* Reset&Default */
 body{font-family:"NotoSans",sans-serif; color:#333;}
 
 body,h1,h2,h3,h4,h5,h6,p,dl,dd{margin:0; padding:0; font-size:100%;}
@@ -16,8 +17,9 @@ table{border-collapse:collapse; border-spacing:0;}
 .cf::after{content:""; display:block; clear:both;}
 
 HTML{font-size:16px; font-size:1em;}
+/* Reset&Default */
 
-/*	Font	*/
+/* WebFont	*/
 @font-face {
     font-family: 'Recipekorea';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
@@ -27,11 +29,11 @@ HTML{font-size:16px; font-size:1em;}
 
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
 
+/* WebFont	*/
+
 .fontColor_blue{color:#19669b;}
 .fontColor_brown{color:#472a15;}
 .fontColor_gold{color:#ffd800;}
-/*	Font	*/
-
 
 
 #wrap{
@@ -182,3 +184,103 @@ pre{
 	display: inline-block;
 }
 
+
+
+
+
+
+
+
+/*반응형미디어쿼리*//*반응형미디어쿼리*//*반응형미디어쿼리*//*반응형미디어쿼리*//*반응형미디어쿼리*//*반응형미디어쿼리*/
+
+/*768px ~ 1023px*/
+@media all and (min-width:768px) and (max-width:1023px){
+	body{min-width:auto;}
+	.inner{width:auto;}
+	#wrap{
+	font-size:13px;
+	}
+	.m_br{display:block; margin-bottom:10px;}
+	.logo{
+	background-size:contain;
+	width:300px;		
+	}  
+}
+/*768px ~ 1023px*/
+
+
+
+
+
+
+/*480px~768px*/
+@media all and (min-width:480px) and (max-width:768px){
+	body{min-width:auto;}
+	#wrap{
+	font-size:11px;
+	}
+	#container{padding:25px;}
+	#main{padding:20px;}
+	.m_br{display:block; margin-bottom:10px;}
+	.agreeInput label{font-size:14px;}
+	.agreeInput input{
+		width:20px;
+		height:20px;
+	}
+	pre{
+		font-size:1.1em;
+	}
+	
+	#main .preDiv:last-child{
+		margin-bottom:30px;
+	}
+	.logo{
+		background-size:contain;
+		width:250px;
+	}
+}
+/*480px~768px*/
+
+
+
+
+
+
+/*~479px*/
+@media all and (max-width:479px){
+	body{min-width:auto;}
+	#wrap{
+	font-size:10px;
+	}
+	#container{padding:18px;}
+	#main{padding:18px;}
+	.title{font-size:2vw;}
+	.title h3{
+		margin:0 !important;
+	}
+	#main .preDiv{margin:25px 0;}
+	.m_br{display:block; margin-bottom:8px;}
+	
+
+	
+	
+	.agreeInput label{font-size:10px; font-weight:bold;}
+	.agreeInput input{
+		width:15px;
+		height:15px;
+		margin:0;
+		margin-right:10px;
+	}
+	pre{
+		font-size:1.1em;
+	}
+	
+	#main .preDiv:last-child{
+		margin-bottom:30px;
+	}
+	.logo{
+		background-size:contain;
+		width:250px;
+	}
+}
+/*~479px*/
