@@ -62,16 +62,20 @@
 	}
 	#container{padding:18px;}
 	#main{padding:18px;}
+	.title{font-size:2vw;}
 	.title h3{
 		margin:0 !important;
 	}
 	#main .preDiv{margin:25px 0;}
 	.m_br{display:block; margin-bottom:8px;}
 	
-
 	
 	
-	.agreeInput label{font-size:10px; font-weight:bold;}
+	
+	.agreeInput label{
+		font-weight:bold;
+		font-size:1vw;
+	}
 	.agreeInput input{
 		width:15px;
 		height:15px;
