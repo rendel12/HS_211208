@@ -24,9 +24,13 @@
     body{min-width:auto;}
     .inner{width:auto;}
 		#wrap{
-		font-size:14px;
+		font-size:13px;
 		}
-    
+	.m_br{display:block; margin-bottom:10px;}
+    .logo{
+		background-size:contain;
+		width:300px;		
+	}
     /*웹뷰에서 쓰던 것 안보임 처리(모바일에서 필요없는 부분 none처리, 모바일 안보임 처리)*/
     .{
         display:none;
@@ -62,7 +66,7 @@
     body{min-width:auto;}
     .inner{width:auto;}
 		#wrap{
-		font-size:12px;
+		font-size:11px;
 		}
 	#container{padding:25px;}
 	#main{padding:20px;}
