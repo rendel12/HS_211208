@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-body{min-width:1200px; font-family:"NotoSans",sans-serif; color:#333;}
+body{font-family:"NotoSans",sans-serif; color:#333;}
 
 body,h1,h2,h3,h4,h5,h6,p,dl,dd{margin:0; padding:0; font-size:100%;}
 
@@ -36,20 +36,21 @@ HTML{font-size:16px; font-size:1em;}
 
 #wrap{
 	font-family: 'Noto Sans KR';
-	font-size:1em;
+	font-size:16px;
 	background-color:#f0f0f0;
 	box-sizing:border-box;
 	text-align:center;
 	width:100vw;
+	margin:0;
+	position:relative;
 }
 
 #container{
-	width:100%;
+	width:100vw;
 	max-width:1200px;
 	background-color:#19669b;
 	padding:50px;
 	box-sizing:border-box;
-	margin:0 auto;
 }
 
 
@@ -85,20 +86,28 @@ pre{
 
 #header h2{
 	font-family:'Recipekorea';
-	font-size:188%;
+	font-size:1.88em;
+	word-break:break-all;
 }
 
 
 #header .mainTitle{
 	font-family:'Recipekorea';
+	border:1px solid #bdbdbd;
+	border-left:none;
+	border-right:none;
+	padding:20px 0;
+	padding-top:25px;
+	box-sizing:border-box;
+	margin: 20px 0;
 }
 
 #header h1{
-	font-size:263%;
+	font-size:2.63em;
 }
 #header h3{
-	font-size:113%;
-	margin-bottom:70px;
+	font-size:1.13em;
+	margin-top:50px;
 }
 
 .title{
@@ -110,8 +119,47 @@ pre{
 .eventInfo .preDiv div{}
 
 
-.centerText{}
+.centerText{
+	font-size:1em;
+}
 
 .agree{}
 .agree .preDiv{}
 .agree .preDiv pre{}
+.agreeInput{
+	margin-top:20px;
+}
+.agree label{
+	font-size:24px;
+}
+.agree input{
+	width:25px;
+	height:25px;
+	vertical-align:middle;
+}
+
+
+.eventForm{}
+.eventForm .preDiv{}
+.eventForm pre{}
+.eventForm pre input{
+	width:250px;
+	height:30px;
+	border:1px solid #bdbdbd;
+	margin:0;
+	padding:0;
+	margin-top:10px;
+}
+
+
+.inputBtn{
+	text-align:center;
+	background-color:#333;
+	color:#fff;
+	width:200px !important;
+	height:40px !important;
+	border:none !important;
+}
+
+
+
