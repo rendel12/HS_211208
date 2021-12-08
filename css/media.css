@@ -69,13 +69,10 @@
 	#main .preDiv{margin:25px 0;}
 	.m_br{display:block; margin-bottom:8px;}
 	
+
 	
 	
-	
-	.agreeInput label{
-		font-weight:bold;
-		font-size:1vw;
-	}
+	.agreeInput label{font-size:10px; font-weight:bold;}
 	.agreeInput input{
 		width:15px;
 		height:15px;
